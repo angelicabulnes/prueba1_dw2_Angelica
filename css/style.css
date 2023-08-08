@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+:root {
+  --bg-body: #F8F9FB;
+  --color-azul: #00ACB2;
+  --color-titulos: white;
+}
+
+body {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  background-color: var(--bg-body);
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif; /* Agregada la fuente Roboto Condensed */
+  color: var(--color-titulos);
+}
+
+
+
+
+header{
+	background-color: var(--bg-body);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: var(--bg-body);
+	color: #333;
+	padding: 30px 0;
+	text-align: center;
+}
+
+ .our-classes {
+  padding-top: 20px;
+  color: #333;
+}
+
+.our-classes h2 {
+  color: #333; 
+}
+  .class-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .class-column {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+  }
+
+  .class-card {
+    border: 1px solid #DDD;
+    padding: 15px;
+    background-color: #FFF;
+  }
+
+  .class-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+  }
+
+   .cta-button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .cta-button {
+    background-color: #f74f4c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+
+
+  .arrow-image {
+    max-width: 100px;
+    margin-left: 100px; /* Agregado margen a la izquierda */
+    padding: 0 px;
+    vertical-align: middle;
+  }
+
+  .cta-text {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+	margin-right: 10px;
+  }
+
+    .fitness {
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fitness-button {
+    background-color: #ffffff;
+    color: #00ACB2;
+    border: 2px solid #00ACB2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .fitness-icon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .fitness-content {
+    text-align: left;
+    color: #333;
+  }
+
+  .fitness h2, .fitness p {
+    color: #333;
+  }
+
+  .fitness h3 {
+    color: #00ACB2;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .white-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+ .trainers {
+    background-color: #25282F;
+    padding: 60px 0;
+    color: white;
+  }
+
+  .trainer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+  .trainer-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 172, 178, 0.8);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .smaller-text {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+
+  .subscribe {
+    padding: 60px 0;
+  }
+
+  .subscribe-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+ .subscribe h2 {
+  font-family: 'Hind', sans-serif; /* Agregada la fuente Hind */
+  color: var(--color-azul);
+  font-weight: normal;
+  text-align: center;
+}
+
+  .subscribe hr {
+    border-top: 2px solid #ccc;
+    margin: 10px 0;
+  }
+
+  .subscribe p {
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .subscribe-button {
+    background-color: #00ACB2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin-right: 80px;
+  }
+
+  
+  #hero {
+    background-color: #25282F;
+    padding: 60px 0;
+    margin-bottom: 40px;
+  }
+
+  #hero h2 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  #hero h1 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  #hero p {
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .btn-container {
+    margin-top: 30px;
+  }
+
+  .btn-get,
+  .btn-get-alt {
+    background-color: #00ACB2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .btn-get i,
+  .btn-get-alt i {
+    margin-right: 8px;
+  }
+
+  .btn-get-alt {
+    background-color: white;
+    color: #00ACB2;
+    border: 2px solid #00ACB2;
+  }
+
+
+
+
+
+
